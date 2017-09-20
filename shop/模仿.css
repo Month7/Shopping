@@ -44,6 +44,15 @@ li{
     border-right: 1px solid rgb(218, 218, 218);
 }
 
+.last a{
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+    display: block;
+    padding: 10px 30px;
+    font-size: 1.2em;
+    border: none!important;
+}
+
 .top_up_child2 a:link,
 .top_up_child2 a:visited{
     color: rgb(218, 218, 218);
@@ -212,4 +221,26 @@ input#i1{
 .footer p{
 	font-size:1.3em;
 	color:#000;
+}
+
+/* 关于我们 */
+.about{
+    margin-top:100px;
+}
+.about p{
+    font-size: 1.3em;
+    color: black;
+    letter-spacing: 2.5px;
+}
+.text1{
+    padding: 10px;
+    /* border: 3px solid black; */
+}
+.text2{
+    padding: 10px;
+    /* border: 3px solid black; */
+}
+.text3{
+    padding: 10px;
+    /* border: 3px solid black; */
 }
