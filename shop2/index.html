@@ -1,5 +1,4 @@
 <!doctype html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,20 +10,86 @@
         <div class="top">
             <div class="top_child">
                 <img style="float:left" src="logo.gif">
-            </div>
-            <div class="top_child_toolbar">
-                <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Clients</a></li>
-                        <li><a href="#">Contact</a></li>
-                </ul>
+                <div class="top_child_toolbar">
+                        <ul>
+                            <div class="dropdown1">
+                                <li><a href="#">Home</a></li>
+                                <div class="dropdown-content1">
+                                    <img src="nav-hover.gif">
+                                </div>
+                            </div>
+                            <div class="dropdown2">
+                                    <li><a href="#">About</a></li>
+                                    <div class="dropdown-content2">
+                                        <img src="nav-hover.gif">
+                                    </div>
+                            </div>
+                            <div class="dropdown3">
+                                    <li><a href="#">Services</a></li>
+                                    <div class="dropdown-content3">
+                                        <img src="nav-hover.gif">
+                                    </div>
+                            </div>
+                            <div class="dropdown4">
+                                    <li><a href="#">Clients</a></li>
+                                    <div class="dropdown-content4">
+                                        <img src="nav-hover.gif">
+                                    </div>
+                            </div>
+                            <div class="dropdown5">
+                                    <li><a href="#">Contact</a></li>
+                                    <div class="dropdown-content5">
+                                        <img src="nav-hover.gif">
+                                    </div>
+                            </div>
+                        </ul>
+                    </div>
             </div>
         </div>
-        <div class="center"></div>
-        <div class="pass"></div>
+        <div class="center">
+            <div class="center_child">
+                   <div id="carouselId" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" >
+                    <div class="item active">
+                        <img src="carousel.png" alt="First slide">
+                    </div>
+                    <div class="item">
+                            <img src="carousel.png" alt="Second slide">
+                    </div>
+                    <div class="item">
+                            <img src="carousel.png" alt="Third slide">
+                    </div>
+                </div>
+                <div class="center_btn">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="pass">
+            <div class="pass_child">
+                <ul>
+                        <li class="left"><a href="#" class="first"><br>Step1<strong>ENTERPRISE</strong><em class="ico1"></em></a></li>
+                        <li><a href="#" class="second"><br>Step2<strong>INNOVATION</strong><em class="ico2"></em></a></li>
+                        <li><a href="#" class="third"><br>Step3<strong>VISION</strong><em class="ico3"></em></a></li>
+                </ul>
+                <script>
+                        $(function(){
+                            $(".first").click(function(){
+                                $("#carouselId").carousel(0);
+                            });
+                            $(".second").click(function(){
+                                $("#carouselId").carousel(1);
+                            });
+                            $(".third").click(function(){
+                                $("#carouselId").carousel(2);
+                            })
+                        });
+                    </script>
+            <a href="#"></a>
+        </div>
+            </div>
         <div class="content"></div>
         <div class="footer"></div>
     </body>
 </head>
+</html>
