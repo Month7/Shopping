@@ -1,0 +1,493 @@
+@charset "utf-8";
+
+.top{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+/*=================================================*/
+/*========================头部=====================*/
+
+.header{
+    margin-top:-30px;
+    background-image:url(images/header-background.jpg);
+    border-image-repeat: repeat-x;
+    height: 1020px;
+    width: 100%;
+    text-align: center;
+    padding-top:230px;
+}
+/*====================================================*/
+/*======================头部内容=======================*/
+.header h1{
+    font-size: 100px;
+    color: white;
+    font-weight: 1500;
+    background-image:url(images/header-background.jpg);
+}
+.header p{
+    font-size: 1.5em;
+    color: white;
+}
+.header hr{
+    width: 620px;
+}
+
+
+
+/*==================浮动导航栏====================*/
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+    position: fixed;
+    top:0px;
+}
+.navbar{
+    width: 805px;
+    height: 40px;
+    background-color: black;
+    margin: 0 auto;
+    position: fixed;
+    top:0px;
+    left: 530px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    float: left;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+li#special{
+    margin-left: 100px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: 900;
+    padding-top:20px;
+    letter-spacing: 1px;
+    display: block;
+}
+.navbar ul li a:link,
+.navbar ul li a:visited{
+    color: white;
+}
+.navbar ul li a:hover{
+    color:  #CC5200;
+}
+.navbar ul li a:active{
+    color:  #CC5200;
+}
+/*=================================================*/
+/*=====================关于我======================*/
+.center{
+    width: 100%;
+    background-color:rgb(43, 43, 43);
+    /* box-sizing: border-box; */
+}
+.about{
+    padding: 90px 0;
+}
+.about h1{
+    color: white;
+}
+.about p{
+    color: gray;
+}
+.test{
+    /* border: 3px solid white; */
+}
+.address{
+    padding: 0px;
+    /* border: 1px solid white; */
+    margin-left: -5px!important;
+}
+.address ul{
+    margin-left: -40px;
+}
+.about button{
+    margin-top:50px;
+    width: 225px;
+    height: 58px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 1.5em;
+    text-align: center;
+}
+.about button:link,
+.about button:visited{
+    background-color: gray;
+}
+.about button:hover{
+    background-color: white;
+    color: gray;
+}
+.center img{
+    margin-left: 200px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+/*========================================================*/
+/*========================职业技能========================*/
+.skills{
+    width: 100%;
+    background-color: white;
+}
+.skills_child{
+    width: 910px;
+    height: 1800px;
+    margin: auto;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.skills_child p{
+    color: gray;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.skills_child h3,
+.skills_child h5{
+    line-height: 30px;
+}
+.box{
+    border-bottom-style: solid;
+    border-bottom-color: green;
+    /* border: 3px solid green; */
+    height: 42px;
+    width: 110px;
+}
+.box2{
+    border-bottom-style: solid;
+    border-bottom-color: green;
+    /* border: 3px solid green; */
+    height: 32px;
+    width: 60px;
+}
+.box h4{
+    letter-spacing: 1px;
+    margin-top:20px;
+    padding-top:10px!important;
+}
+.blank{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+.skills ul{
+    list-style-type: none;
+}
+.skills li span{
+	font: 15px 'opensans-bold', sans-serif;
+    color: #313131;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+.photoshop {
+    height: 42px;
+    width: 10%;
+    background-color:#313131;
+    border-radius: 3px 0 0 3px;
+}
+.Html5{
+    height: 42px;
+    width: 60%;
+    background-color:#313131;
+    border-radius: 3px 0 0 3px;
+}
+.Css3{
+    height: 42px;
+    width: 75%;
+    background-color:#313131;
+    border-radius: 3px 0 0 3px;
+}
+.JQuery{
+    height: 42px;
+    width: 25%;
+    background-color:#313131;
+    border-radius: 3px 0 0 3px;
+}
+.JavaScript{
+    height: 42px;
+    width: 35%;
+    background-color:#313131;
+    border-radius: 3px 0 0 3px;
+}
+.Bootstrap{
+    height: 42px;
+    width: 28%;
+    background-color:#313131;
+    border-radius: 3px 0 0 3px;
+}
+.skills_expand{
+    margin-top:15px;
+    margin-bottom: 20px;
+    width: 610px;
+    height: 42px;
+    border-radius: 3px 0 0 3px;
+    padding: 0px;
+    background-color: gray;
+}
+/*=============================================*/
+/*===================图片廊====================*/
+.picture{
+    width: 100%;
+    height: 720px;
+    /* box-sizing: border-box; */
+    background-color: rgb(235, 238, 238);
+    padding-top:10px;
+}
+.picture h5{
+    margin-top:120px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.pct{
+    width: 1100px;
+    height: 550px;
+    margin: auto;
+    /* border: 3px solid red; */
+}
+.pct_image{
+    width:215px; 
+    height:215px;
+    float: left;
+    margin: 20px;
+    background:url(images/02.png);
+    transition: 0.3s;
+}
+.pct_image:hover{
+    background-image: url(images/01.png);
+    z-index: 1;
+}
+.pct_image1{
+    width:215px; 
+    height:215px;
+    float: left;
+    margin: 20px;
+    background:url(images/03.png);
+    transition: 0.3s;
+}
+.pct_image1:hover{
+    background-image: url(images/04.png);
+    z-index: 1;
+}
+.pct_image2{
+    width:215px; 
+    height:215px;
+    float: left;
+    margin: 20px;
+    background:url(images/05.png);
+    transition: 0.3s;
+}
+.pct_image2:hover{
+    background-image: url(images/06.png);
+    z-index: 1;
+}
+.pct_image3{
+    width:215px; 
+    height:215px;
+    float: left;
+    margin: 20px;
+    background:url(images/07.png);
+    transition: 0.3s;
+}
+.pct_image3:hover{
+    background-image: url(images/08.png);
+    z-index: 1;
+}
+.pct_image4{
+    width:215px; 
+    height:215px;
+    float: left;
+    margin: 20px;
+    background:url(images/09.png);
+    transition: 0.3s;
+}
+.pct_image4:hover{
+    background-image: url(images/082.png);
+    z-index: 1;
+}
+.pct_image5{
+    width:215px; 
+    height:215px;
+    float: left;
+    margin: 20px;
+    background:url(images/10.png);
+    transition: 0.3s;
+}
+.pct_image5:hover{
+    background-image: url(images/11.png);
+    z-index: 1;
+}
+.pct_image6{
+    width:215px; 
+    height:215px;
+    float: left;
+    margin: 20px;
+    background:url(images/121.png);
+    transition: 0.3s;
+}
+.pct_image6:hover{
+    background-image: url(images/12.png);
+    z-index: 1;
+}
+.pct_image7{
+    width:215px; 
+    height:215px;
+    float: left;
+    margin: 20px;
+    background:url(images/14.png);
+    transition: 0.3s;
+}
+.pct_image7:hover{
+    background-image: url(images/15.png);
+    z-index: 1;
+}
+/*========================================*/
+/*========================================*/
+.host{
+    height: 214px;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+}
+/*=======================轮播=======================*/
+/*=================================================*/
+.carouselbg{
+    color: white;
+    height: 450px;
+    width: 100%;
+    background-image:  url(images/bg.jpg);
+}
+.car{
+    height: 450px;
+    width:830px;
+    margin:0 auto;
+}
+.car p{
+    /* margin-top:200px; */
+    padding-top:100px;
+    padding-bottom: 100px;
+    font: 19px/36px 'opensans-light', sans-serif;
+}
+cite{
+    margin-bottom:30px;
+}
+.carousel_one{
+    position: relative;
+    left: 60px;
+    top:400px;
+}
+
+
+/*=========================================================*/
+/*=========================================================*/
+.from{
+    background-color: rgb(25, 25, 25);
+    height: 1200px;
+    width: 100%;
+}
+.contact{
+    width: 1030px;
+    height: 600px;
+    margin: auto;
+}
+.contact p{
+    color: white;
+    font-size: 1.3em;
+}
+.text1{
+    width: 416px;
+    height: 65px;
+    background-color: rgb(55, 50, 51);
+    border: 1px solid rgb(55, 50, 51);
+}
+.text2{
+    width: 416px;
+    height: 65px;
+    background-color: rgb(55, 50, 51);
+    border: 1px solid rgb(55, 50, 51);
+}
+.text3{
+    width: 416px;
+    height: 65px;
+    background-color: rgb(55, 50, 51);
+    border: 1px solid rgb(55, 50, 51);
+}
+.area1{
+    width: 416px;
+    height: 418px;
+    background-color: rgb(55, 50, 51);
+    border: 1px solid rgb(55, 50, 51);
+}
+.blue{
+    background-color: rgb(17, 171, 176);
+}
+.blue_font{
+    color: rgb(17, 171, 176);
+}
+.before{
+    text-align: center;
+    padding-top:20px;
+}
+.blank_two{
+    height: 50px;
+    width: 100%;
+}
+.blank_three{
+    height: 70px;
+    width: 100%;
+}
+.btn{
+    height: 54px;
+    width: 116px;
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+}
+.btn:link,
+.btn:visited{
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.typeface p{
+    color: gray;
+    line-height: 30px;
+    font-size: 0.8em;
+}
+.typeface a{
+    color: rgb(17, 171, 176);
+    text-decoration: none;
+    line-height: 30px;
+}
+.typeface a:link,
+.typeface a:visited{
+    color: rgb(17, 171, 176);
+}
+.typeface a:hover{
+    color: white;
+}
+.typeface a:active{
+    color: white;
+}
+.footer{
+    background-color: rgb(15, 15, 15);
+    width:100%;
+    height: 210px;
+    text-align: center;
+    color: gray;
+    padding-top:100px;
+}

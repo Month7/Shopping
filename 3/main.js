@@ -1,0 +1,26 @@
+$(document).ready(function(){
+    $(".text1").focus(function(){
+        $(".text1").addClass("blue");
+    })
+    $(".text1").blur(function(){
+        $(".text1").removeClass("blue");
+    });
+    $(".text2").focus(function(){
+        $(".text2").addClass("blue");
+    })
+    $(".text2").blur(function(){
+        $(".text2").removeClass("blue");
+    });
+    $(".text3").focus(function(){
+        $(".text3").addClass("blue");
+    })
+    $(".text3").blur(function(){
+        $(".text3").removeClass("blue");
+    });
+    $(".area1").focus(function(){
+        $(".area1").addClass("blue");
+    })
+    $(".area1").blur(function(){
+        $(".area1").removeClass("blue");
+    });
+   });
