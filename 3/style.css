@@ -246,7 +246,7 @@ li#special{
     background-color: rgb(235, 238, 238);
     padding-top:10px;
 }
-.picture h5{
+.picture-top h5{
     margin-top:120px;
     color: gray;
     margin-bottom: 50px;
@@ -258,100 +258,33 @@ li#special{
     /* border: 3px solid red; */
 }
 .pct_image{
+    position: relative;
     width:215px; 
     height:215px;
     float: left;
     margin: 20px;
-    background:url(images/02.png);
+    /* background:url(images/02.png); */
     transition: 0.3s;
 }
-.pct_image:hover{
-    background-image: url(images/01.png);
-    z-index: 1;
+.info{
+    position: absolute;
+    width: 215px;
+    height: 215px;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    color: #fff;
+    padding: 18px;
 }
-.pct_image1{
-    width:215px; 
-    height:215px;
-    float: left;
-    margin: 20px;
-    background:url(images/03.png);
-    transition: 0.3s;
+.info h5{
+    font: 14px/21px 'opensans-bold', sans-serif;
+    color: #fff;
 }
-.pct_image1:hover{
-    background-image: url(images/04.png);
-    z-index: 1;
-}
-.pct_image2{
-    width:215px; 
-    height:215px;
-    float: left;
-    margin: 20px;
-    background:url(images/05.png);
-    transition: 0.3s;
-}
-.pct_image2:hover{
-    background-image: url(images/06.png);
-    z-index: 1;
-}
-.pct_image3{
-    width:215px; 
-    height:215px;
-    float: left;
-    margin: 20px;
-    background:url(images/07.png);
-    transition: 0.3s;
-}
-.pct_image3:hover{
-    background-image: url(images/08.png);
-    z-index: 1;
-}
-.pct_image4{
-    width:215px; 
-    height:215px;
-    float: left;
-    margin: 20px;
-    background:url(images/09.png);
-    transition: 0.3s;
-}
-.pct_image4:hover{
-    background-image: url(images/082.png);
-    z-index: 1;
-}
-.pct_image5{
-    width:215px; 
-    height:215px;
-    float: left;
-    margin: 20px;
-    background:url(images/10.png);
-    transition: 0.3s;
-}
-.pct_image5:hover{
-    background-image: url(images/11.png);
-    z-index: 1;
-}
-.pct_image6{
-    width:215px; 
-    height:215px;
-    float: left;
-    margin: 20px;
-    background:url(images/121.png);
-    transition: 0.3s;
-}
-.pct_image6:hover{
-    background-image: url(images/12.png);
-    z-index: 1;
-}
-.pct_image7{
-    width:215px; 
-    height:215px;
-    float: left;
-    margin: 20px;
-    background:url(images/14.png);
-    transition: 0.3s;
-}
-.pct_image7:hover{
-    background-image: url(images/15.png);
-    z-index: 1;
+.pct_image:hover .info{
+    opacity: 1.0;
+    /* background-image: url(images/01.png);
+    z-index: 1; */
 }
 /*========================================*/
 /*========================================*/

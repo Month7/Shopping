@@ -23,4 +23,13 @@ $(document).ready(function(){
     $(".area1").blur(function(){
         $(".area1").removeClass("blue");
     });
+    $(window).scroll(function(){
+        var $height=$(window).scrollTop();
+        if($height>50){
+            $(".nav").hide();
+        }
+        else if($height<50){
+            $(".nav").fadeIn(500);
+        }
+    });
    });
